@@ -1,0 +1,89 @@
+body{
+  font-family: 'Bacasime Antique', serif;
+  font-family: 'Ysabeau Infant', sans-serif;}
+
+  div {
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 600px;
+    border: 5px solid #de6ed2;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 20px 30px 40px #ce28bb ;
+    background-color: #dbb0d7;
+    margin-left: 500px;
+    border-radius: 10px;
+    overflow:auto;
+} 
+body{
+  background-image: url(../images/brabuleta.jfif)
+}
+
+h1{
+  color: #ff6cee;
+  text-size: 200px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+ul{
+  text-align: center;
+  text-decoration: solid;
+}
+img{
+  margin-left: 200px;
+  border-radius: 30px;
+  box-shadow:20px 20px 20px 20px #f6a5ed;
+}
+
+
+:root {
+    --color-light: #f6f6f6;
+    --color-blue: rgb(121, 17, 128);
+    --color-blue-alpha: rgba(103, 14, 121, 0.9);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bacasime Antique', serif;
+}
+table {
+    width: 80%;
+    margin: 10px auto;    
+    border-collapse: collapse; 
+    text-align: center;
+}
+caption {
+    font-size: 2rem;
+    color: var(--color-purple);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+thead tr {
+    background: var(--color-purple);
+    color: #ffffff;    
+}
+th,td {
+    width: 25%;
+    padding: 15px;
+}
+tbody tr {
+    border-bottom: 1px solid #d80985;
+}
+tbody tr:nth-child(even) {
+    background: #e28fcb;
+}
+tbody tr:last-child {
+    border-bottom: 20px solid var(--color-pink);
+}
+tbody tr:hover {
+    font-weight: 900;
+    background-color: var(--color-pink-hot);
+    color: #f798dc;
+    cursor: pointer;
+}
+tfoot {
+    font-weight: 700;
+}
